@@ -163,6 +163,7 @@
 		05C1E3C81A2032F9003EFC5D /* FRCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRCoreDataManager.m; sourceTree = "<group>"; };
 		05C1E3CA1A203531003EFC5D /* NSError+FightRounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+FightRounds.h"; sourceTree = "<group>"; };
 		05C1E3CB1A203531003EFC5D /* NSError+FightRounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+FightRounds.m"; sourceTree = "<group>"; };
+		05C1E3D31A204138003EFC5D /* bigIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigIcon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +224,7 @@
 		05C1E2FD1A202CF8003EFC5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05C1E3D31A204138003EFC5D /* bigIcon.png */,
 				05C1E36D1A202E26003EFC5D /* Sounds */,
 				05C1E2FE1A202CF8003EFC5D /* Info.plist */,
 				05C1E3A71A20304B003EFC5D /* Product_IDs.plist */,
@@ -670,6 +672,7 @@
 					"$(CONFIGURATION_BUILD_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Fight Rounds/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -687,6 +690,7 @@
 					"$(CONFIGURATION_BUILD_DIR)",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Fight Rounds/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
