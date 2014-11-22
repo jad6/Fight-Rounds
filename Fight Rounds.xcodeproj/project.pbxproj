@@ -8,12 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		05C1E3001A202CF8003EFC5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E2FF1A202CF8003EFC5D /* main.m */; };
-		05C1E3031A202CF8003EFC5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3021A202CF8003EFC5D /* AppDelegate.m */; };
-		05C1E3061A202CF8003EFC5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3051A202CF8003EFC5D /* ViewController.m */; };
-		05C1E3091A202CF8003EFC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E3071A202CF8003EFC5D /* Main.storyboard */; };
-		05C1E30B1A202CF8003EFC5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E30A1A202CF8003EFC5D /* Images.xcassets */; };
 		05C1E30E1A202CF8003EFC5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E30C1A202CF8003EFC5D /* LaunchScreen.xib */; };
 		05C1E31A1A202CF8003EFC5D /* Fight_RoundsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3191A202CF8003EFC5D /* Fight_RoundsTests.m */; };
+		05C1E34F1A202D5F003EFC5D /* Bell_End.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E3231A202D5F003EFC5D /* Bell_End.m4a */; };
+		05C1E3501A202D5F003EFC5D /* Bell.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E3241A202D5F003EFC5D /* Bell.m4a */; };
+		05C1E3521A202D5F003EFC5D /* FRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3281A202D5F003EFC5D /* FRAppDelegate.m */; };
+		05C1E35F1A202D5F003EFC5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E3411A202D5F003EFC5D /* Images.xcassets */; };
+		05C1E3621A202D5F003EFC5D /* Pause_Beep.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E3461A202D5F003EFC5D /* Pause_Beep.m4a */; };
+		05C1E3671A202D5F003EFC5D /* Wood_Clapping.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E34E1A202D5F003EFC5D /* Wood_Clapping.m4a */; };
+		05C1E36A1A202DC3003EFC5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E36C1A202DC3003EFC5D /* Main.storyboard */; };
+		05C1E3761A202F4D003EFC5D /* Fight Rounds.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3741A202F4D003EFC5D /* Fight Rounds.xcdatamodeld */; };
+		05C1E3811A202F7B003EFC5D /* FRFightRoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3781A202F7B003EFC5D /* FRFightRoundsViewController.m */; };
+		05C1E3821A202F7B003EFC5D /* FRRoundsSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E37A1A202F7B003EFC5D /* FRRoundsSettingsViewController.m */; };
+		05C1E3831A202F7B003EFC5D /* FRRoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E37C1A202F7B003EFC5D /* FRRoundsViewController.m */; };
+		05C1E3841A202F7B003EFC5D /* FRSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E37E1A202F7B003EFC5D /* FRSettingsViewController.m */; };
+		05C1E3851A202F7B003EFC5D /* FRWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3801A202F7B003EFC5D /* FRWelcomeViewController.m */; };
+		05C1E3901A202FCD003EFC5D /* FRPickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3891A202FCD003EFC5D /* FRPickerCell.m */; };
+		05C1E3911A202FCD003EFC5D /* FRStepperCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E38B1A202FCD003EFC5D /* FRStepperCell.m */; };
+		05C1E3921A202FCD003EFC5D /* FRSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E38D1A202FCD003EFC5D /* FRSwitchCell.m */; };
+		05C1E3931A202FCD003EFC5D /* FRTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E38F1A202FCD003EFC5D /* FRTextFieldCell.m */; };
+		05C1E39A1A202FED003EFC5D /* FRSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3951A202FED003EFC5D /* FRSoundPlayer.m */; };
+		05C1E39B1A202FED003EFC5D /* FRStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3971A202FED003EFC5D /* FRStoreManager.m */; };
+		05C1E39C1A202FED003EFC5D /* FRTintColorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3991A202FED003EFC5D /* FRTintColorHelper.m */; };
+		05C1E3A51A203032003EFC5D /* NSNumber+Time.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3A11A203032003EFC5D /* NSNumber+Time.m */; };
+		05C1E3A61A203032003EFC5D /* UIApplication+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3A31A203032003EFC5D /* UIApplication+Extensions.m */; };
+		05C1E3A81A20304B003EFC5D /* Product_IDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05C1E3A71A20304B003EFC5D /* Product_IDs.plist */; };
+		05C1E3AB1A20307A003EFC5D /* FRRoundsInfo+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3AA1A20307A003EFC5D /* FRRoundsInfo+Extension.m */; };
+		05C1E3B31A203168003EFC5D /* FRRoundsInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3B21A203168003EFC5D /* FRRoundsInfo.m */; };
+		05C1E3C61A2032E3003EFC5D /* DataStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C1E3BD1A2032CB003EFC5D /* DataStore.framework */; };
+		05C1E3C91A2032F9003EFC5D /* FRCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3C81A2032F9003EFC5D /* FRCoreDataManager.m */; };
+		05C1E3CC1A203531003EFC5D /* NSError+FightRounds.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C1E3CB1A203531003EFC5D /* NSError+FightRounds.m */; };
+		05C1E3CE1A203C6B003EFC5D /* DataStore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 05C1E3BD1A2032CB003EFC5D /* DataStore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,22 +49,120 @@
 			remoteGlobalIDString = 05C1E2F91A202CF8003EFC5D;
 			remoteInfo = "Fight Rounds";
 		};
+		05C1E3BC1A2032CB003EFC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 057C537D1A0DDBC800DC6360;
+			remoteInfo = "DataStore-iOS";
+		};
+		05C1E3BE1A2032CB003EFC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 057C53881A0DDBC900DC6360;
+			remoteInfo = "DataStore-iOSTests";
+		};
+		05C1E3C01A2032CB003EFC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05BE35F51A14785B008AAE7B;
+			remoteInfo = "DataStore-Mac";
+		};
+		05C1E3C21A2032CB003EFC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 05BE35FF1A14785B008AAE7B;
+			remoteInfo = "DataStore-MacTests";
+		};
+		05C1E3C41A2032DF003EFC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 057C537C1A0DDBC800DC6360;
+			remoteInfo = "DataStore-iOS";
+		};
+		05C1E3CF1A203C6B003EFC5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 057C537C1A0DDBC800DC6360;
+			remoteInfo = "DataStore-iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		05C1E3D11A203C6B003EFC5D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				05C1E3CE1A203C6B003EFC5D /* DataStore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		05C1E2FA1A202CF8003EFC5D /* Fight Rounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fight Rounds.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C1E2FE1A202CF8003EFC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05C1E2FF1A202CF8003EFC5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		05C1E3011A202CF8003EFC5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		05C1E3021A202CF8003EFC5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		05C1E3041A202CF8003EFC5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		05C1E3051A202CF8003EFC5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		05C1E3081A202CF8003EFC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		05C1E30A1A202CF8003EFC5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		05C1E30D1A202CF8003EFC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		05C1E3131A202CF8003EFC5D /* Fight RoundsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fight RoundsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C1E3181A202CF8003EFC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05C1E3191A202CF8003EFC5D /* Fight_RoundsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fight_RoundsTests.m; sourceTree = "<group>"; };
+		05C1E3231A202D5F003EFC5D /* Bell_End.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bell_End.m4a; sourceTree = "<group>"; };
+		05C1E3241A202D5F003EFC5D /* Bell.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bell.m4a; sourceTree = "<group>"; };
+		05C1E3271A202D5F003EFC5D /* FRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRAppDelegate.h; sourceTree = "<group>"; };
+		05C1E3281A202D5F003EFC5D /* FRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRAppDelegate.m; sourceTree = "<group>"; };
+		05C1E3411A202D5F003EFC5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05C1E3461A202D5F003EFC5D /* Pause_Beep.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pause_Beep.m4a; sourceTree = "<group>"; };
+		05C1E34E1A202D5F003EFC5D /* Wood_Clapping.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wood_Clapping.m4a; sourceTree = "<group>"; };
+		05C1E36B1A202DC3003EFC5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05C1E3751A202F4D003EFC5D /* Fight Rounds.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Fight Rounds.xcdatamodel"; sourceTree = "<group>"; };
+		05C1E3771A202F7B003EFC5D /* FRFightRoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRFightRoundsViewController.h; sourceTree = "<group>"; };
+		05C1E3781A202F7B003EFC5D /* FRFightRoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRFightRoundsViewController.m; sourceTree = "<group>"; };
+		05C1E3791A202F7B003EFC5D /* FRRoundsSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRoundsSettingsViewController.h; sourceTree = "<group>"; };
+		05C1E37A1A202F7B003EFC5D /* FRRoundsSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRoundsSettingsViewController.m; sourceTree = "<group>"; };
+		05C1E37B1A202F7B003EFC5D /* FRRoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRoundsViewController.h; sourceTree = "<group>"; };
+		05C1E37C1A202F7B003EFC5D /* FRRoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRoundsViewController.m; sourceTree = "<group>"; };
+		05C1E37D1A202F7B003EFC5D /* FRSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSettingsViewController.h; sourceTree = "<group>"; };
+		05C1E37E1A202F7B003EFC5D /* FRSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSettingsViewController.m; sourceTree = "<group>"; };
+		05C1E37F1A202F7B003EFC5D /* FRWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWelcomeViewController.h; sourceTree = "<group>"; };
+		05C1E3801A202F7B003EFC5D /* FRWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWelcomeViewController.m; sourceTree = "<group>"; };
+		05C1E3881A202FCD003EFC5D /* FRPickerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRPickerCell.h; sourceTree = "<group>"; };
+		05C1E3891A202FCD003EFC5D /* FRPickerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRPickerCell.m; sourceTree = "<group>"; };
+		05C1E38A1A202FCD003EFC5D /* FRStepperCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRStepperCell.h; sourceTree = "<group>"; };
+		05C1E38B1A202FCD003EFC5D /* FRStepperCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRStepperCell.m; sourceTree = "<group>"; };
+		05C1E38C1A202FCD003EFC5D /* FRSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSwitchCell.h; sourceTree = "<group>"; };
+		05C1E38D1A202FCD003EFC5D /* FRSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSwitchCell.m; sourceTree = "<group>"; };
+		05C1E38E1A202FCD003EFC5D /* FRTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTextFieldCell.h; sourceTree = "<group>"; };
+		05C1E38F1A202FCD003EFC5D /* FRTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTextFieldCell.m; sourceTree = "<group>"; };
+		05C1E3941A202FED003EFC5D /* FRSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRSoundPlayer.h; sourceTree = "<group>"; };
+		05C1E3951A202FED003EFC5D /* FRSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRSoundPlayer.m; sourceTree = "<group>"; };
+		05C1E3961A202FED003EFC5D /* FRStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRStoreManager.h; sourceTree = "<group>"; };
+		05C1E3971A202FED003EFC5D /* FRStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRStoreManager.m; sourceTree = "<group>"; };
+		05C1E3981A202FED003EFC5D /* FRTintColorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRTintColorHelper.h; sourceTree = "<group>"; };
+		05C1E3991A202FED003EFC5D /* FRTintColorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRTintColorHelper.m; sourceTree = "<group>"; };
+		05C1E3A01A203032003EFC5D /* NSNumber+Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Time.h"; sourceTree = "<group>"; };
+		05C1E3A11A203032003EFC5D /* NSNumber+Time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Time.m"; sourceTree = "<group>"; };
+		05C1E3A21A203032003EFC5D /* UIApplication+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extensions.h"; sourceTree = "<group>"; };
+		05C1E3A31A203032003EFC5D /* UIApplication+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extensions.m"; sourceTree = "<group>"; };
+		05C1E3A71A20304B003EFC5D /* Product_IDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Product_IDs.plist; sourceTree = "<group>"; };
+		05C1E3A91A20307A003EFC5D /* FRRoundsInfo+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FRRoundsInfo+Extension.h"; sourceTree = "<group>"; };
+		05C1E3AA1A20307A003EFC5D /* FRRoundsInfo+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FRRoundsInfo+Extension.m"; sourceTree = "<group>"; };
+		05C1E3B11A203168003EFC5D /* FRRoundsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRRoundsInfo.h; sourceTree = "<group>"; };
+		05C1E3B21A203168003EFC5D /* FRRoundsInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRRoundsInfo.m; sourceTree = "<group>"; };
+		05C1E3B41A203206003EFC5D /* Fight Rounds-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fight Rounds-Prefix.pch"; sourceTree = "<group>"; };
+		05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DataStore.xcodeproj; path = DataStore/DataStore.xcodeproj; sourceTree = "<group>"; };
+		05C1E3C71A2032F9003EFC5D /* FRCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRCoreDataManager.h; sourceTree = "<group>"; };
+		05C1E3C81A2032F9003EFC5D /* FRCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRCoreDataManager.m; sourceTree = "<group>"; };
+		05C1E3CA1A203531003EFC5D /* NSError+FightRounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+FightRounds.h"; sourceTree = "<group>"; };
+		05C1E3CB1A203531003EFC5D /* NSError+FightRounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+FightRounds.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +170,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05C1E3C61A2032E3003EFC5D /* DataStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +187,7 @@
 		05C1E2F11A202CF8003EFC5D = {
 			isa = PBXGroup;
 			children = (
+				05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */,
 				05C1E2FC1A202CF8003EFC5D /* Fight Rounds */,
 				05C1E3161A202CF8003EFC5D /* Fight RoundsTests */,
 				05C1E2FB1A202CF8003EFC5D /* Products */,
@@ -81,13 +206,15 @@
 		05C1E2FC1A202CF8003EFC5D /* Fight Rounds */ = {
 			isa = PBXGroup;
 			children = (
-				05C1E3011A202CF8003EFC5D /* AppDelegate.h */,
-				05C1E3021A202CF8003EFC5D /* AppDelegate.m */,
-				05C1E3041A202CF8003EFC5D /* ViewController.h */,
-				05C1E3051A202CF8003EFC5D /* ViewController.m */,
-				05C1E3071A202CF8003EFC5D /* Main.storyboard */,
-				05C1E30A1A202CF8003EFC5D /* Images.xcassets */,
+				05C1E3271A202D5F003EFC5D /* FRAppDelegate.h */,
+				05C1E3281A202D5F003EFC5D /* FRAppDelegate.m */,
+				05C1E36C1A202DC3003EFC5D /* Main.storyboard */,
 				05C1E30C1A202CF8003EFC5D /* LaunchScreen.xib */,
+				05C1E3411A202D5F003EFC5D /* Images.xcassets */,
+				05C1E36E1A202EAB003EFC5D /* Models */,
+				05C1E3861A202F88003EFC5D /* Views */,
+				05C1E36F1A202EBA003EFC5D /* Controllers */,
+				05C1E3701A202EC7003EFC5D /* Others */,
 				05C1E2FD1A202CF8003EFC5D /* Supporting Files */,
 			);
 			path = "Fight Rounds";
@@ -96,10 +223,14 @@
 		05C1E2FD1A202CF8003EFC5D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				05C1E36D1A202E26003EFC5D /* Sounds */,
 				05C1E2FE1A202CF8003EFC5D /* Info.plist */,
+				05C1E3A71A20304B003EFC5D /* Product_IDs.plist */,
 				05C1E2FF1A202CF8003EFC5D /* main.m */,
+				05C1E3B41A203206003EFC5D /* Fight Rounds-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 		05C1E3161A202CF8003EFC5D /* Fight RoundsTests */ = {
@@ -119,6 +250,118 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		05C1E36D1A202E26003EFC5D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3461A202D5F003EFC5D /* Pause_Beep.m4a */,
+				05C1E34E1A202D5F003EFC5D /* Wood_Clapping.m4a */,
+				05C1E3231A202D5F003EFC5D /* Bell_End.m4a */,
+				05C1E3241A202D5F003EFC5D /* Bell.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		05C1E36E1A202EAB003EFC5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3731A202F28003EFC5D /* Core Data */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		05C1E36F1A202EBA003EFC5D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3771A202F7B003EFC5D /* FRFightRoundsViewController.h */,
+				05C1E3781A202F7B003EFC5D /* FRFightRoundsViewController.m */,
+				05C1E3791A202F7B003EFC5D /* FRRoundsSettingsViewController.h */,
+				05C1E37A1A202F7B003EFC5D /* FRRoundsSettingsViewController.m */,
+				05C1E37B1A202F7B003EFC5D /* FRRoundsViewController.h */,
+				05C1E37C1A202F7B003EFC5D /* FRRoundsViewController.m */,
+				05C1E37D1A202F7B003EFC5D /* FRSettingsViewController.h */,
+				05C1E37E1A202F7B003EFC5D /* FRSettingsViewController.m */,
+				05C1E37F1A202F7B003EFC5D /* FRWelcomeViewController.h */,
+				05C1E3801A202F7B003EFC5D /* FRWelcomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		05C1E3701A202EC7003EFC5D /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E39D1A203009003EFC5D /* Categories */,
+				05C1E3941A202FED003EFC5D /* FRSoundPlayer.h */,
+				05C1E3951A202FED003EFC5D /* FRSoundPlayer.m */,
+				05C1E3961A202FED003EFC5D /* FRStoreManager.h */,
+				05C1E3971A202FED003EFC5D /* FRStoreManager.m */,
+				05C1E3981A202FED003EFC5D /* FRTintColorHelper.h */,
+				05C1E3991A202FED003EFC5D /* FRTintColorHelper.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		05C1E3731A202F28003EFC5D /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3C71A2032F9003EFC5D /* FRCoreDataManager.h */,
+				05C1E3C81A2032F9003EFC5D /* FRCoreDataManager.m */,
+				05C1E3741A202F4D003EFC5D /* Fight Rounds.xcdatamodeld */,
+				05C1E3B11A203168003EFC5D /* FRRoundsInfo.h */,
+				05C1E3B21A203168003EFC5D /* FRRoundsInfo.m */,
+				05C1E3A91A20307A003EFC5D /* FRRoundsInfo+Extension.h */,
+				05C1E3AA1A20307A003EFC5D /* FRRoundsInfo+Extension.m */,
+			);
+			name = "Core Data";
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		05C1E3861A202F88003EFC5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3871A202F95003EFC5D /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		05C1E3871A202F95003EFC5D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3881A202FCD003EFC5D /* FRPickerCell.h */,
+				05C1E3891A202FCD003EFC5D /* FRPickerCell.m */,
+				05C1E38A1A202FCD003EFC5D /* FRStepperCell.h */,
+				05C1E38B1A202FCD003EFC5D /* FRStepperCell.m */,
+				05C1E38C1A202FCD003EFC5D /* FRSwitchCell.h */,
+				05C1E38D1A202FCD003EFC5D /* FRSwitchCell.m */,
+				05C1E38E1A202FCD003EFC5D /* FRTextFieldCell.h */,
+				05C1E38F1A202FCD003EFC5D /* FRTextFieldCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		05C1E39D1A203009003EFC5D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3A01A203032003EFC5D /* NSNumber+Time.h */,
+				05C1E3A11A203032003EFC5D /* NSNumber+Time.m */,
+				05C1E3A21A203032003EFC5D /* UIApplication+Extensions.h */,
+				05C1E3A31A203032003EFC5D /* UIApplication+Extensions.m */,
+				05C1E3CA1A203531003EFC5D /* NSError+FightRounds.h */,
+				05C1E3CB1A203531003EFC5D /* NSError+FightRounds.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		05C1E3B61A2032CB003EFC5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C1E3BD1A2032CB003EFC5D /* DataStore.framework */,
+				05C1E3BF1A2032CB003EFC5D /* DataStoreTests.xctest */,
+				05C1E3C11A2032CB003EFC5D /* DataStore.framework */,
+				05C1E3C31A2032CB003EFC5D /* DataStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +372,13 @@
 				05C1E2F61A202CF8003EFC5D /* Sources */,
 				05C1E2F71A202CF8003EFC5D /* Frameworks */,
 				05C1E2F81A202CF8003EFC5D /* Resources */,
+				05C1E3D11A203C6B003EFC5D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				05C1E3C51A2032DF003EFC5D /* PBXTargetDependency */,
+				05C1E3D01A203C6B003EFC5D /* PBXTargetDependency */,
 			);
 			name = "Fight Rounds";
 			productName = "Fight Rounds";
@@ -163,6 +409,7 @@
 		05C1E2F21A202CF8003EFC5D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = FR;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Jad Osseiran";
 				TargetAttributes = {
@@ -186,6 +433,12 @@
 			mainGroup = 05C1E2F11A202CF8003EFC5D;
 			productRefGroup = 05C1E2FB1A202CF8003EFC5D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 05C1E3B61A2032CB003EFC5D /* Products */;
+					ProjectRef = 05C1E3B51A2032CB003EFC5D /* DataStore.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				05C1E2F91A202CF8003EFC5D /* Fight Rounds */,
@@ -194,14 +447,50 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		05C1E3BD1A2032CB003EFC5D /* DataStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DataStore.framework;
+			remoteRef = 05C1E3BC1A2032CB003EFC5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05C1E3BF1A2032CB003EFC5D /* DataStoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DataStoreTests.xctest;
+			remoteRef = 05C1E3BE1A2032CB003EFC5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05C1E3C11A2032CB003EFC5D /* DataStore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DataStore.framework;
+			remoteRef = 05C1E3C01A2032CB003EFC5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		05C1E3C31A2032CB003EFC5D /* DataStoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DataStoreTests.xctest;
+			remoteRef = 05C1E3C21A2032CB003EFC5D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		05C1E2F81A202CF8003EFC5D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C1E3091A202CF8003EFC5D /* Main.storyboard in Resources */,
 				05C1E30E1A202CF8003EFC5D /* LaunchScreen.xib in Resources */,
-				05C1E30B1A202CF8003EFC5D /* Images.xcassets in Resources */,
+				05C1E35F1A202D5F003EFC5D /* Images.xcassets in Resources */,
+				05C1E34F1A202D5F003EFC5D /* Bell_End.m4a in Resources */,
+				05C1E3A81A20304B003EFC5D /* Product_IDs.plist in Resources */,
+				05C1E36A1A202DC3003EFC5D /* Main.storyboard in Resources */,
+				05C1E3621A202D5F003EFC5D /* Pause_Beep.m4a in Resources */,
+				05C1E3501A202D5F003EFC5D /* Bell.m4a in Resources */,
+				05C1E3671A202D5F003EFC5D /* Wood_Clapping.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +508,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05C1E3061A202CF8003EFC5D /* ViewController.m in Sources */,
-				05C1E3031A202CF8003EFC5D /* AppDelegate.m in Sources */,
+				05C1E3A61A203032003EFC5D /* UIApplication+Extensions.m in Sources */,
 				05C1E3001A202CF8003EFC5D /* main.m in Sources */,
+				05C1E3761A202F4D003EFC5D /* Fight Rounds.xcdatamodeld in Sources */,
+				05C1E3841A202F7B003EFC5D /* FRSettingsViewController.m in Sources */,
+				05C1E3C91A2032F9003EFC5D /* FRCoreDataManager.m in Sources */,
+				05C1E3B31A203168003EFC5D /* FRRoundsInfo.m in Sources */,
+				05C1E3811A202F7B003EFC5D /* FRFightRoundsViewController.m in Sources */,
+				05C1E3831A202F7B003EFC5D /* FRRoundsViewController.m in Sources */,
+				05C1E39C1A202FED003EFC5D /* FRTintColorHelper.m in Sources */,
+				05C1E39B1A202FED003EFC5D /* FRStoreManager.m in Sources */,
+				05C1E3821A202F7B003EFC5D /* FRRoundsSettingsViewController.m in Sources */,
+				05C1E3AB1A20307A003EFC5D /* FRRoundsInfo+Extension.m in Sources */,
+				05C1E3931A202FCD003EFC5D /* FRTextFieldCell.m in Sources */,
+				05C1E3921A202FCD003EFC5D /* FRSwitchCell.m in Sources */,
+				05C1E3A51A203032003EFC5D /* NSNumber+Time.m in Sources */,
+				05C1E3521A202D5F003EFC5D /* FRAppDelegate.m in Sources */,
+				05C1E39A1A202FED003EFC5D /* FRSoundPlayer.m in Sources */,
+				05C1E3911A202FCD003EFC5D /* FRStepperCell.m in Sources */,
+				05C1E3CC1A203531003EFC5D /* NSError+FightRounds.m in Sources */,
+				05C1E3901A202FCD003EFC5D /* FRPickerCell.m in Sources */,
+				05C1E3851A202F7B003EFC5D /* FRWelcomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,23 +548,33 @@
 			target = 05C1E2F91A202CF8003EFC5D /* Fight Rounds */;
 			targetProxy = 05C1E3141A202CF8003EFC5D /* PBXContainerItemProxy */;
 		};
+		05C1E3C51A2032DF003EFC5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DataStore-iOS";
+			targetProxy = 05C1E3C41A2032DF003EFC5D /* PBXContainerItemProxy */;
+		};
+		05C1E3D01A203C6B003EFC5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DataStore-iOS";
+			targetProxy = 05C1E3CF1A203C6B003EFC5D /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		05C1E3071A202CF8003EFC5D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				05C1E3081A202CF8003EFC5D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		05C1E30C1A202CF8003EFC5D /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				05C1E30D1A202CF8003EFC5D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		05C1E36C1A202DC3003EFC5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C1E36B1A202DC3003EFC5D /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -345,7 +662,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Fight Rounds/Info.plist";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREFIX_HEADER = "Fight Rounds/SupportingFiles/Fight Rounds-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Fight Rounds/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -355,7 +679,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Fight Rounds/Info.plist";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREFIX_HEADER = "Fight Rounds/SupportingFiles/Fight Rounds-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(CONFIGURATION_BUILD_DIR)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Fight Rounds/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +745,7 @@
 				05C1E31F1A202CF8003EFC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05C1E3201A202CF8003EFC5D /* Build configuration list for PBXNativeTarget "Fight RoundsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,8 +754,22 @@
 				05C1E3221A202CF8003EFC5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		05C1E3741A202F4D003EFC5D /* Fight Rounds.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				05C1E3751A202F4D003EFC5D /* Fight Rounds.xcdatamodel */,
+			);
+			currentVersion = 05C1E3751A202F4D003EFC5D /* Fight Rounds.xcdatamodel */;
+			path = "Fight Rounds.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 05C1E2F21A202CF8003EFC5D /* Project object */;
 }

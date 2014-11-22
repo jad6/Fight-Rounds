@@ -6,11 +6,12 @@
 //  Copyright (c) 2014 Jad Osseiran. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+@import UIKit;
+
+#import "FRAppDelegate.h"
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([FRAppDelegate class]));
     }
 }

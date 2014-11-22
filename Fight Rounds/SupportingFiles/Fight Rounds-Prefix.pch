@@ -1,0 +1,24 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#ifdef __OBJC__
+    #import "NSError+FightRounds.h"
+    #import "FRTintColorHelper.h"
+
+    #define MINUTE 60
+    #define CLASS_PREFIX @"FR"
+
+    #define DEFAULTS_TIMER_TIME_LEFT @"FREnterBackgroundTimeLeft"
+
+    #define DEFAULTS_SOUND_OPTION @"FRSettingsPlayBell"
+    #define DEFAULTS_ICLOUD_OPTION @"FRSettingsICloudSync"
+    #define DEFAULTS_FAV_ORDERING_OPTION @"FRSettingsFavoritesOrdering"
+    #define DEFAULTS_LAST_WELCOME_VERSION @"FRLastWelcomeVersion"
+
+    #define DEFAULTS_IN_APP_PURCHASED @"FRInAppPurchased"
+
+    #define PAID_VERSION [[NSUserDefaults standardUserDefaults] boolForKey:DEFAULTS_IN_APP_PURCHASED]
+#endif
